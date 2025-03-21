@@ -1,0 +1,87 @@
+@charset "utf-8";
+html{
+    margin:0; 
+    padding:0; 
+    height:100%; 
+    font-size:14px;
+    background-image: url(../Pictures/background.jpg);
+}
+body {	
+    margin-left:auto; 
+    margin-right:auto; 
+    width: 81.9%;
+    padding-left: 4.55%;
+    padding-right: 4.55%;
+    clear: none;
+    float: none;
+    min-height: 100%;
+    background-color:whitesmoke;
+    border-style: outset;
+
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+.logo {
+    height: 50px;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav li {
+    margin: 0 10px;
+}
+
+
+
+footer {
+    text-align: center;
+    font-size: 0.6em;
+    margin-top: 4%;
+    border-top: 3px outset black;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    clear: both;
+    padding-bottom: 20px;
+}
+
+.ads1{
+    width: 100%;
+    align-items: center;
+    padding: 3% 5%;
+    
+}
+
+ #interior{
+    padding: 3% 5%;
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    left: 400px;
+}
+#exterior{
+    padding: 3% 5%;
+    height: 300px;
+    width: 400px;
+    position: relative;
+    
+    left: 800px;
+    top: 10px;
+
+}
+.ads{
+    width: 100%;
+    align-items: center;
+    padding: 3% 5%;
+    
+}
+
+p .description{
+    
+}
+

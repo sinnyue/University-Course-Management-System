@@ -1,0 +1,130 @@
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="keyword" content="Furniture,Modern House,Furniture Design"/>
+        <meta name="viewport" content="width=device-width,initial-scale=1"/>
+        <link href="customer_feedback.css" rel="stylesheet">
+        <script src="feedback.js" defer></script>
+        <link href="stylesheet" rel="style.css">
+        <link rel="stylesheet" href="../css/main.css">
+        <title>Customer Feedback Form</title>
+    </head>
+    <body>
+        <header>
+            <a href="home.html"></a>
+            <img src="logo.png" alt="Logo Nexon Furniture MY"/>
+             <nav class="menu_icon">
+                <ul>
+                    <li><a href="../main.html">Home</a></li>
+                    <li><a href="../interior.html">Interior</a></li>
+                    <li><a href="../exterior.html">Exterior</a></li>
+                    <li><a href="../About Us/about_us.html">About Us</a></li>
+                    <li><a href="../FAQ/faq.html">FAQ</a></li>
+                    <li><a href="customer_feedback.html">Customer Feedback</a></li>
+                    <li><a href="cart.html">Cart</a></li>
+                </ul>
+             </nav>
+        </header>
+        
+        <div>
+            <fieldset>
+                <h1>Feedback Form</h1>
+                <p><i>Thank you for visiting Nexon My Furniture Shop. We would love to hear abount your experience - simply fil out this form and hit submit. Thank you for your feedback!</i></p>
+                <hr />
+                <form class="formbox" action="customer_feedback.html" method="POST">
+                    <div class="top">
+                    <label for="date">Date of Service</label>
+                    <input class="textbox" type="date" id="detebox" name="datebox"></div><br /><br />
+
+                    <label for="name">Name*</label>
+                    <input class="textbox" type="text" id="namebox" name="namebox" placeholder="Full Name" required><br />
+                        
+                    <label for="phone">Mobile No*</label>
+                    <input class="textbox" type="tel" id="phonebox" name="phonebox" placeholder="(nnn) nnn-nnnn" pattern="^\d{10}$|^(\(\d{3}\)\s*)?\d{3}[\s-]?\d{4}$" required><br />
+                            
+                    <label for="email">Email*</label>
+                    <input class="emailbox" type="email" id="boxemail" name="boxemail" placeholder="Email Address"><br />
+                    
+            
+                    <label for="genderbox">Gender*</label>
+                    <select class="selectbox" id="genderbox" name="genderbox">
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                    </select> <br /><br />
+
+                    <div class="rate">
+                    <p>How would you rate the quality of our service?<p>
+                    <input type="radio" name="rate" value="Poor">
+                    <label for="poor">Poor</label><br/>
+                    <input type="radio" name="rate" value="Fair">
+                    <label for="fair">Fair</label><br/>
+                    <input type="radio" name="rate" value="Good">
+                    <label for="good">Good</label><br/>
+                    <input type="radio" name="rate" value="Excellent">
+                    <label for="excellent">Excellent</label><br /><br />
+
+                    <p>How would you rate our customer servive?</p>
+                    <input type="radio" name="rate2" value="Poor">
+                    <label for="poor">Poor</label><br/>
+                    <input type="radio" name="rate2" value="Fair">
+                    <label for="fair">Fair</label><br/>
+                    <input type="radio" name="rate2" value="Good">
+                    <label for="good">Good</label><br/>
+                    <input type="radio" name="rate2" value="Excellent">
+                    <label for="excellent">Excellent</label><br /><br />
+
+                    <p>How would you recommend our servive?</p>
+                    <input type="radio" name="rate3" value="Poor">
+                    <label for="poor">Poor</label><br/>
+                    <input type="radio" name="rate3" value="Fair">
+                    <label for="fair">Fair</label><br/>
+                    <input type="radio" name="rate3" value="Good">
+                    <label for="good">Good</label><br/>
+                    <input type="radio" name="rate3" value="Excellent">
+                    <label for="excellent">Excellent</label><br /><br /><br />
+                    </div>
+                    
+                    <label id="textareabox" for="feedback">Additional Comments:</label><br />
+                    <textarea class="textareabox" type="text" id="boxcomments" name="boxcomments" placeholder="Enter Comment here"></textarea><br /><br /><br />
+
+                    <button type="reset"><b><u style="color:white;">R</u>eset</b></button>
+                    <button type="submit"><b><u style="color:white;">S</u>ubmit</b></button>
+                        </form>
+                    </fieldset>
+                </div>
+                <div class="popup"></div>
+                
+        
+        <section class="social">
+            <h1 class="share">Share ❤️ Subcribe</h1>
+            <div class="social-links">
+                <a target="_blank" href="https://www.tiktok.com" class="inserted"> <!-- for future company tiktok website link -->
+                <img class="tiktok-website" src="1tiktok.png" alt="tiktok"></a>
+
+                <a target="_blank" href="https://www.instagram.com" class="inserted"> <!-- for future company instagram website link -->
+                    <img class="instagram-website" src="2instagram.png" alt="instagram"></a>
+
+                    
+                    <a target="_blank" href="https://www.facebook.com" class="inserted"> <!-- for future company facebook website link -->
+                        <img class="facebook-website" src="3facebook.png" alt="facebook"></a>
+
+                        <a target="_blank" href="https://www.twitter.com" class="inserted"> <!-- for future company twitter website link -->
+                            <img class="twitter-website" src="4twitter.png" alt="twitter"></a>
+
+                            <a target="_blank" href="https://www.invision.com" class="inserted"> <!-- for future company invision website link -->
+                                <img class="invision-website" src="5invision.png" alt="invision"></a>
+
+                                
+                                <a target="_blank" href="https://www.youtube.com" class="inserted"> <!-- for future company youtube website link -->
+                                    <img class="youtube-website" src="6youtube.png" alt="youtube"></a>
+            </div>
+            </section>
+
+        <scrip></scrip>
+
+
+        <footer>
+            <p>Nexon Furniture MY | 123 Aeon Mall, Second Floor &nbsp; &#9742 012-345-6789</p>
+        </footer>
+    </body>
+</html> 

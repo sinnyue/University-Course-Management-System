@@ -1,0 +1,161 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Poppins',sans-serif;
+}
+
+body{
+   background-color: antiquewhite;
+   min-height: 100vh;
+   display: grid;
+}
+
+.container{
+   width: 70vw;
+   height: 100vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+}
+
+
+.products{
+   width: 120vw;
+   height: 80vh;
+   display: flex;
+   flex-wrap: wrap;
+   gap: 30px;
+}
+
+.product{
+   position: relative;
+   background-color: white;
+   width: 300px;
+   height: 100%;
+   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   padding: 20px 20px 40px;
+   border-radius: 10px;
+   transition: 0.3s;
+}
+
+.product:hover{
+   transform: translate(-15px);
+   box-shadow: 0 15px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.image{
+   width: 100%;
+   height: 60%;
+   display: grid;
+   place-items: center;
+}
+
+.image img{
+   width: 240px;
+}
+
+.namePrice{
+   width: 100%;
+   display: block;
+   justify-content: space-between;
+   padding: 3rem 0.5rem 2rem 0.5rem;
+}
+
+
+.namePrice h3{
+   display: block;
+   font-size: 1.3em;
+   text-transform: capitalize;
+   color: black;
+}
+
+.namePrice span:first-of-type{
+   text-decoration: line-through;
+    color: rgb(166, 76, 76);
+}
+
+.namePrice span{
+   padding-top: 0.6rem;
+   padding-right: 0.6rem;
+   display: inline-block;
+   font-size: 1.0em;
+   color: black;
+}
+
+.product p{
+   font-size: 15px;
+   line-height: 25px;
+}
+
+.buy{
+   position: absolute;
+   bottom: 20px;
+   right: 20px;
+}
+
+.buy button{
+   padding: 8px 16px;
+   border-radius: 7px;
+   border: none;
+   background-color:black ;
+   color: white;
+   font-size: 18px;
+   text-transform: capitalize;
+   cursor: pointer;
+   transition: 0.5s;
+}
+
+.buy button:hover{
+   background-color: rgb(173, 136, 67);
+   
+   transform: scale(1.1);
+}
+
+.sm-title{
+   font-family: 'Roboto' , sans-serif;
+   font-weight: 300;
+   font-size: 1rem;
+   padding: 0.6rem 0;
+   text-transform: capitalize,uppercase;
+}
+
+.offer-info .sm-title{
+   background-color:rgb(214, 0, 0);
+   color: white;
+   display: inline-block;
+   padding: 0.5rem;
+   position: absolute;
+   top: 0;
+   left: 0;
+}
+
+.product-details span{
+   padding-top: 0.6rem;
+   padding-right: 0.6rem;
+   display: inline-block;
+   font-size: 1.0em;
+   color: black;
+}
+
+.best-info{
+   font-family: 'Roboto' , sans-serif;
+   font-weight: 300;
+   font-size: 1rem;
+   padding: 0.6rem 0;
+   text-transform: capitalize,uppercase;
+}
+
+.best-info .sm-title{
+   background-color:  rgb(139, 76, 0);
+   color: white;
+   display: inline-block;
+   padding: 0.5rem;
+   position: absolute;
+   top: 0;
+   left: 0;
+}

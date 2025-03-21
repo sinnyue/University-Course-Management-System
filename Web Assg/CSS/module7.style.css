@@ -1,0 +1,132 @@
+/* Global styles */
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+
+
+/* Header styles */
+
+
+.logo-home {
+	display: flex;
+	align-items: center;
+}
+
+.logo-home img {
+	width: 50px;
+	height: 50px;
+	margin-right: 10px;
+}
+
+.cart button {
+	background-color: #fff;
+	border: none;
+	padding: 5px 10px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.cart button:hover {
+	background-color: #ddd;
+}
+
+
+
+/* Main content styles */
+main {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 20px;
+}
+
+aside {
+	flex-basis: 20%;
+}
+
+aside h2 {
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+aside{
+	list-style-type: none;
+}
+
+.items {
+	display: flex;
+	flex-wrap: wrap;
+	flex-basis: 80%;
+}
+
+.item {
+	flex-basis: 30%;
+	background-color: #fff;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	padding: 20px;
+	border-radius: 5px;
+	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+	transition: all 0.3s ease-in-out;
+}
+
+.item:hover {
+	transform: translateY(-5px);
+	box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.item img {
+	max-width: 100%;
+}
+
+.item h3 {
+	font-size: 18px;
+	margin: 10px 0;
+}
+
+.item p {
+	font-size: 16px;
+	margin: 10px 0;
+	font-weight: bold;
+	color: #333;
+}
+
+/* Footer styles */
+
+@media screen and (max-width: 768px) {
+	header {
+		flex-wrap: wrap;
+	}
+	
+	.logo-home {
+		flex-basis: 100%;
+		margin-bottom: 10px;
+	}
+	
+	.cart {
+		margin-left: auto;
+		margin-bottom: 10px;
+	}
+	
+	nav {
+		flex-basis: 100%;
+	}
+	
+	nav ul {
+		justify-content: center;
+	}
+	
+	nav ul li {
+		margin: 0 5px;
+	}
+	
+	.items {
+		flex-basis: 100%;
+	}
+	
+	.item {
+		width: 45%;
+	}
+}
